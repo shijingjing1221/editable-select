@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html id="ng-app" ng-app="acuteSelectTest">
+
+<head>
+    <title></title>
+    <!--<script src="acute/lib/angular%201.3.3/angular.min.js"></script>-->
+    <script type="text/javascript" src="acute/lib/angular.1.2.26.js"></script>
+    <script type="text/javascript" src="acute/acute.select/acute.select.js"></script>
+    <link href="acute/lib/bootstrap.min.css" rel="stylesheet" />
+    <link href="acute/acute.select/acute.select.css" rel="stylesheet" />
+    <script type="text/javascript" src="demo.js"></script>
+
+</head>
+
+<body>
+    <div ng-controller="MainCtrl">
+        <div class="row">
+            <div class="col-xs-6 col-xs-offset-2">
+                You can either input or selct the value:
+                <br />
+                <select class="ac-select" ac-model="selectedState" ac-options="s for s in allStates" ac-change="stateSelected(value)"></select>
+                <br /> "selectedState" value is: {{selectedState}}
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
