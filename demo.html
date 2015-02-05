@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html id="ng-app" ng-app="acuteSelectTest">
-
 <head>
     <title></title>
     <!--<script src="acute/lib/angular%201.3.3/angular.min.js"></script>-->
@@ -16,7 +15,7 @@
     <div ng-controller="MainCtrl">
         <div class="row">
             <div class="col-xs-6 col-xs-offset-2">
-                You can either input or selct the value:
+                You can either <strong>input</strong> or <strong>selct</strong> the value:
                 <br />
                 <select class="ac-select" ac-model="selectedState" ac-options="s for s in allStates" ac-change="stateSelected(value)"></select>
                 <br /> "selectedState" value is: {{selectedState}}

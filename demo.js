@@ -19,7 +19,7 @@ angular.module("acuteSelectTest", ["acute.select"])
             console.log("stateSelected from demo.js:" + state);
         };
 
-        $scope.allStates = ["Test1", "Test2", "Test3"];
+        $scope.allStates = ["Option1", "Option1", "Option1"];
 
         $scope.selectedState = $scope.allStates[0];
     }
