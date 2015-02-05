@@ -140,7 +140,8 @@ td.ac-select-add {
     cursor: pointer;
 }
 .ac-select-highlight {
-    background-color: #d0d0d0;
+    /*background-color: #d0d0d0;*/
+    background-color: white;
 }
 .ac-select-popup ul {
     cursor: pointer;
